@@ -1,0 +1,28 @@
+.bank{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 50px 100px 50px 80px auto;
+    font-size: 18px;
+}
+
+.bank__list{
+    display:grid;
+    grid-row: 6/7;
+    grid-column: auto;
+    grid-auto-rows: 60px;
+}
+
+.bank__list-headline{
+    grid-row: 5/6;
+    display: grid;
+    box-sizing: border-box;
+    width: 1000px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 200px) auto;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    background-color: #e0dbc5;
+    border: 5px solid #e0dbc5;
+}

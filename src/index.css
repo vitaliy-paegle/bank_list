@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper__bank {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto 1000px auto;
+  grid-template-rows: 50px auto 50px;
+}

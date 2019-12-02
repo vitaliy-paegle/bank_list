@@ -1,0 +1,48 @@
+.bank-string {
+    display: grid;
+    box-sizing: border-box;
+    width: 1000px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 200px) auto;
+    grid-gap: 5px;
+    background-color: #e0dbc5;
+    border: 5px solid #e0dbc5;
+    border-top: 0px;        
+}
+
+.bank-string__field{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 25px;
+    outline: none;
+    padding: 3px;
+    border: 0px solid white;
+    background-color: white; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bank-string__button-box{   
+    display: grid;
+    font-size: 12px;
+    cursor: default;
+    grid-gap: 5px;
+}
+.bank-string__edit, .bank-string__delete{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #ec6593;
+    width: 100%;
+    height: 100%;
+    color: #3b3b3b;    
+}
+
+.bank-string__field-box{
+    grid-column: 1/5;
+    display: grid;
+    grid-template: auto/repeat(4, 200px);
+    grid-gap: 5px;
+}
+

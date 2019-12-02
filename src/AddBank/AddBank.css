@@ -1,0 +1,43 @@
+.add-bank{
+    display: grid;
+    box-sizing: border-box;
+    width: 1000px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4, 200px) auto;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    background-color: #e0dbc5;
+    border: 5px solid #e0dbc5;
+    
+      
+}
+
+.headline{
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color :#1c9675;
+}
+
+
+
+.field{
+    font-size: 25px;
+    outline: none;
+    padding: 3px;
+    border: 0px solid white;  
+}
+
+
+
+.bottom{
+    grid-row: 1/3;
+    color: white;
+    background-color: #f3cc5a;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: default;
+}
+
